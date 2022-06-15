@@ -1,21 +1,20 @@
 <template>
+<div class="min-h-screen bg-gray-100 text-gray-800 antialiased px-4 py-6 flex flex-col justify-center sm:py-12; ">
+  <div class="relative sm:max-w-xl mx-auto text-center">
 
-<div class="min-h-screen text-black-800 antialiased ml-80  px-4 py-6 flex flex-col justify-center sm:py-12; ">
-  <div class="relative w-50 mx-auto text-center">
-
-<div class="relative mt-4 w-auto bg-white shadow-md sm:rounded-lg text-right ">
-<div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-10">
+<div class="relative mt-4 bg-white shadow-md sm:rounded-lg text-right">
+<div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
   <div class="max-w-md w-full space-y-8">
     <div>
-      <img class="logo" src="@/static/Logo.png" alt="">
+      <img class="logo" src="@/static/Logo.png" alt="Workflow">
       <p class="mt-5 text-center text-sm text-gray-600">
       </p>
     </div>
-    <form class="mt-8 space-y-6 w-80" action="#" method="POST">
+    <form class="mt-8 space-y-6" action="#" method="POST">
       <input type="hidden" name="remember" value="true">
       <div class="rounded-md shadow-sm -space-y-px">
         <div class="id">
-          <label for="email-address" class="sr-only">ID n</label>
+          <label for="email-address" class="sr-only">ID Admin</label>
           <input type="text" placeholder="ID Admin" class=" border w-full h-5 px-3 py-5 mt-5 hover:outline-none focus:outline-none focus:ring-1 focus:ring-indigo-600 rounded-md">
         </div>
         <div class="textbox2">
@@ -35,7 +34,6 @@
       </div>
 
       <div class="pass">
-        <NuxtLink to="/admin/dashboard">
         <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-black-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
           <span class="absolute left-0 inset-y-0 flex items-center pl-3">
             <!-- Heroicon name: solid/lock-closed -->
@@ -43,9 +41,8 @@
               <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
             </svg>
           </span>
-          Sign In
+          Sign in
         </button>
-        </NuxtLink>
       </div>
     </form>
   </div>
@@ -53,19 +50,16 @@
 </div>
 </div>
 </div>
+
 </template>
 
-<<script>
+<script>
 export default {
-  data() {
-    return {
-      image: { backgroundImage: "url('@/static/background_login.png')" }
-    };
-  }
-};
+
+}
 </script>
 
-<style scoped>
+<style>
 .logo {
     margin-left: auto;
     margin-right: auto;
