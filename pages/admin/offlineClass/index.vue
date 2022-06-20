@@ -35,6 +35,76 @@
       </button>
     </form>
     <!-- dropdown -->
+    <div class="my-5 mx-3">
+      <button
+        id="dropdownDefault"
+        data-dropdown-toggle="dropdown"
+        class="flex text-black w-60 bg-white border border-red-300 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center space-x-40"
+        type="button"
+      >
+        <p>ALL</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+
+      <div
+        id="dropdown"
+        class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700"
+        data-popper-placement="top"
+        style="
+          position: absolute;
+          inset: auto auto 0px 0px;
+          margin: 0px;
+          transform: translate(352px, -12px);
+        "
+      >
+        <ul
+          class="py-1 text-sm text-gray-700 dark:text-gray-200"
+          aria-labelledby="dropdownDefault"
+        >
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+              >Dashboard</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+              >Settings</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+              >Earnings</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+              >Sign out</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- table -->
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
       <table class="table-auto w-full text-center">
