@@ -12,7 +12,11 @@
 import SidebarAdmin from "~/components/admin/SidebarAdmin.vue"
 
 export default {
-  components: { SidebarAdmin },
+    layout: 'admin',
+    layout (context) {
+    return 'blog'
+    },
+    components: { SidebarAdmin },
   
 }
 </script>
