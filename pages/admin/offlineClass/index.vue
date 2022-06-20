@@ -7,10 +7,12 @@
         :key="index"
         class="block m-3 p-5 max-w-sm bg-white border-4 border-red-500 shadow-md hover:bg-red-100"
       >
-        <h5 class="mb-2 text-xl px-5 text-center">{{ category.name }}</h5>
-        <p class="text-5xl text-center font-bold dark:text-white">
-          {{ category.class }}
-        </p>
+        <nuxt-link :to="`/admin/offlineClass/category/${index}`">
+          <h5 class="mb-2 text-xl px-5 text-center">{{ category.name }}</h5>
+          <p class="text-5xl text-center font-bold">
+            {{ category.class }}
+          </p>
+        </nuxt-link>
       </div>
     </div>
     <!-- search box -->
@@ -51,7 +53,7 @@
           <tr
             v-for="(list, index) in lists"
             :key="index"
-            class="border border-separate border-black sm:rounded-lg"
+            class="border-separate border-black sm:rounded-lg"
           >
             <td>{{ list.id }}</td>
             <td>{{ list.name }}</td>
@@ -60,7 +62,7 @@
             <td>{{ list.class }}</td>
             <td>{{ list.date }}</td>
             <td>
-              <div class="inline">
+              <div class="block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
