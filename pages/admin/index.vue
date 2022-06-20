@@ -6,7 +6,11 @@
 
 <script>
 export default {
-
+  layout: 'admin',
+  // OR
+  layout (context) {
+    return 'admin'
+  }
 }
 </script>
 
