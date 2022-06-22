@@ -15,15 +15,49 @@
                 <p class="text-5xl text-center font-bold dark:text-white">5</p>
             </div>   
         </div>
-        <div class="flex border">
+        <div class="flex justify-between border">
             <p class="text-5xl font-bold ml-5 mt-10 align-middle">Classes</p>
-            <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 ">Red</button>
+            <a href="/admin/onlineClass/addClass">
+                <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-10 py-0.5 mr-10 mb-2">Add New Class</button>
+            </a>
 
         </div>
-        <div class="mt-10 flex">
+        <div class="mt-10 flex font-bold text-xl">
             <p class="mr-60 ml-10">BodyCombat</p>
             <p class="mr-60 ml-10">BodyCombat</p>
             <p class="mr-60 ml-10">BodyCombat</p>
+        </div>
+        <div class="flex ml-5">
+            <a href="/admin/onlineClass/clickClass" class="block p-6 max-w-sm bg-white mt-10 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                <div class="flex">
+                    <img src="@/static/peserta.svg" alt="">
+                    <p>30</p>
+                </div>
+            </a>
+            <a href="#" class="block p-6 max-w-sm bg-white mt-10 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                <div class="object-center flex">
+                    <img src="@/static/peserta.svg" alt="">
+                    <p>30</p>
+                </div>
+            </a>
+            <a href="#" class="block p-6 max-w-sm bg-white mt-10 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                <div class="object-center flex">
+                    <img src="@/static/peserta.svg" alt="">
+                    <p>30</p>
+                </div>
+            </a>
         </div>
 
 
