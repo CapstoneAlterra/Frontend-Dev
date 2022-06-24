@@ -159,15 +159,28 @@
               </div>
               <div class="flex items-center">
                 <input
-                  id="handuk"
+                  id="things3"
                   type="checkbox"
                   value="handuk"
                   class="w-5 h-5 text-blue-500 bg-red-100 border-red-500"
                 />
                 <label
-                  for="handuk"
+                  for="things3"
                   class="ml-2 text-base font-medium text-gray-900"
                   >Handuk</label
+                >
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="things4"
+                  type="checkbox"
+                  value="sepatu"
+                  class="w-5 h-5 text-blue-500 bg-red-100 border-red-500"
+                />
+                <label
+                  for="things4"
+                  class="ml-2 text-base font-medium text-gray-900"
+                  >Sepatu</label
                 >
               </div>
               <div class="flex items-center">
