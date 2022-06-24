@@ -70,6 +70,14 @@
                   placeholder="Select date"
                 />
               </div>
+              <div class="my-5">
+                <p class="font-medium text-xl">Price</p>
+                <p
+                  class="bg-red-500 text-white mt-3 text-center rounded w-max h-max p-3"
+                >
+                  Rp. 45.000
+                </p>
+              </div>
             </div>
           </div>
           <div>
@@ -170,13 +178,34 @@
                   class="w-5 h-5 text-blue-500 bg-red-100 border-red-500"
                 />
                 <label
-                  for="othe"
+                  for="other"
                   class="ml-2 text-base font-medium text-gray-900"
                   >Lainnya</label
                 >
               </div>
             </div>
           </div>
+        </div>
+        <div class="my-5">
+          <div class="mb-5">
+            <label
+              for="large-input"
+              class="block mb-2 text-xl font-medium text-gray-900"
+              >Description</label
+            >
+            <input
+              type="text"
+              id="large-input"
+              class="block w-full h-28 text-gray-900 border-2 border-red-600 bg-gray-50"
+            />
+          </div>
+        </div>
+        <div>
+          <button
+            class="absolute-right-200 bg-red-600 text-white rounded-md gap-1 h-14 w-24 text-center px-1"
+          >
+            <span class="text-xl">SAVE</span>
+          </button>
         </div>
       </form>
     </div>
