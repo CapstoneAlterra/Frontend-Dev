@@ -8,11 +8,12 @@
     <nuxt-link class="my-10 p-5 bg-red-600 text-2xl font-bold text-white rounded-xl" to="/admin/dashboard">Go to admin</nuxt-link>
   </div>
 </div>
-
 </template>
 
-<script>
+<<script>
 export default {
-  name: 'IndexPage'
 }
 </script>
+
+<style scoped>
+</style>
