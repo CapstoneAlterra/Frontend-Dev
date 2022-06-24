@@ -208,6 +208,7 @@
 </template>
 <script>
 export default {
+  layout: 'admin',
   data() {
     return {
       dropclass: false,
