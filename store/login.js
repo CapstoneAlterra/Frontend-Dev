@@ -1,19 +1,21 @@
-export const state = () => ({
-    token: null,
-  })
-  
-  export const mutations = {
-    loginToken(state, token) {
-        state.token = token
+
+    export const state = () => ({
+      users: [],
+    })
+    
+    export const mutations = {
+      setUser(state, playload) {
+          state.users = playload;
         },
-    }
-  export const actions = {
-    fetchLoginToken(store, {email, password}){
-        axios
-            .get('https://gym.stack.co.id/member/auth/login', {email, password})
-            .then((response) => {store.commit('loginToken', response.result.token);
-          })
-            .catch((error) => { console.log(error)
-          })
-      },
-    }
+      }
+    export const actions = {
+      fetchUser(store){
+          axios
+              .get(`https://gym.stack.co.id/member`)
+              .then((response) => {store.commit('setUser', response);
+              console.log(response)
+            })
+              .catch((error) => { console.log(error)
+            })
+        },
+      }

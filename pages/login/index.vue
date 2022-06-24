@@ -19,6 +19,7 @@
 
 <script>
 export default {
+    middleware: 'notAuthenticated',
     data() {
       return {
           email: '',
@@ -27,21 +28,32 @@ export default {
     },
     methods: {
       async login () {
-        const response = await this.$axios.$post('https://gym.stack.co.id/member/auth/login', {email: this.email, password: this.password})
-        this.$store.commit("loginToken", response.result.token)
-        console.log(response.result.token)
-    },
-    // async login($axios, $post) {
-    //     await $axios
-    //       $post('https://gym.stack.co.id/member/auth/login',{email: this.email, password: this.password})
-    //       .then((response) => {
-    //           this.$store.commit('loginSucces', response.data.token)
-    //           this.$router.replace({ name: "admin-dashboard" })
-    //     })
-    //       .catch((error) => {
-    //         console.log(error)
-    //     })
-    // },
+        const response = await this.$axios.$post('https://gym.stack.co.id/member/auth/login', 
+        {email: this.email, password: this.password
+        })
+        .then((response) => {
+          this.alertLoginSucces()
+          this.$store.commit("loginToken", response.result.token)
+          this.$router.replace({name:'admin-dashboard'})
+        })
+        .catch((error) => {
+          this.alertLoginError(error)
+        })
+      },
+        alertLoginSucces(){
+          this.$swal({
+            position: 'center',
+            title: 'Log In Succes',
+            timer: 1500
+            });
+          },
+        alertLoginError(){
+          this.$swal({
+            position: 'center',
+            title: 'Login Failed, Username or Password Wrong !!!',
+            timer: 1500
+            });
+          },
   },
 }
 </script>

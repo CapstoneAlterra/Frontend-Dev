@@ -5,7 +5,7 @@
     <p class=" text-center font-bold text-7xl text-gray-700 my-10">Welcome to Admin</p>
   </div>
   <div class="flex justify-center">
-    <nuxt-link class="my-10 p-5 bg-red-600 text-2xl font-bold text-white rounded-xl" to="/admin/dashboard">Go to admin</nuxt-link>
+    <nuxt-link class="my-10 p-5 bg-red-600 text-2xl font-bold text-white rounded-xl" to="/login">Login To Admin</nuxt-link>
   </div>
 </div>
 </template>

@@ -21,8 +21,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -37,7 +36,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/auth-next',
+    'nuxt-sweetalert2'
   ],
+  auth: {
+    // Options
+  },
+  router: {
+    // middleware: ['authenticated']
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
