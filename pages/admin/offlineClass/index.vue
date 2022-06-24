@@ -112,7 +112,7 @@
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
           fill="none"
-          viewBox="0 0 24 24"
+          viewBox="0 0 20 20"
           stroke="currentColor"
           stroke-width="2"
         >
@@ -127,7 +127,7 @@
       <div
         v-show="dropclass"
         id="dropclass"
-        class="m-x-10 z-10 absolute bg-white divide-y divide-gray-100 rounded shadow w-60"
+        class="z-10 mx-60 absolute bg-white divide-y divide-gray-100 rounded shadow w-60"
       >
         <ul class="py-1 text-sm text-gray-700">
           <li v-for="(kelas, index) in classes" :key="index">
