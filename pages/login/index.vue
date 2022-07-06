@@ -71,8 +71,8 @@ export default {
               result.data.result.token,
               result.data.result.refresh_token
             );
-            console.log(response);
             console.log(result);
+            console.log(this.$store.state.auth);
             this.$router.replace({ name: "admin-dashboard" });
           })
           .catch((error) => {
