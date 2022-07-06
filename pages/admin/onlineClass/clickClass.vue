@@ -11,7 +11,7 @@
         <!-- judul -->
         <div>
             <p class="text-4xl font-bold ml-5 mt-5">BodyCombat</p>
-            <p class="text-2xl mt-5 ml-5">16 June 2022</p>
+            <p class="text-2xl mt-5 ml-5">16 June 2022 &nbsp; 21.00 - 22.00</p>
         </div>
         <div>
             <div class="mt-10 ml-5">

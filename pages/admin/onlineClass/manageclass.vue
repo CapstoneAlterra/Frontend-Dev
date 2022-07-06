@@ -22,42 +22,61 @@
             </a>
 
         </div>
-        <div class="mt-10 flex font-bold text-xl">
-            <p class="mr-60 ml-10">BodyCombat</p>
-            <p class="mr-60 ml-10">BodyCombat</p>
-            <p class="mr-60 ml-10">BodyCombat</p>
-        </div>
-        <div class="flex ml-5">
-            <a href="/admin/onlineClass/clickClass" class="block p-6 max-w-sm bg-white mt-10 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
-                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
-                <div class="flex">
-                    <img src="@/static/peserta.svg" alt="">
-                    <p>30</p>
+        <div>
+            <div class="flex ml-5 mt-10">
+                <div>
+                    <p class="ml-10 font-bold text-xl">BodyCombat</p>
+                    <a href="/admin/onlineClass/clickClass" class="block p-6 max-w-sm bg-white mt-5 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                        <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                        <div class="flex">
+                            <img src="@/static/peserta.svg" alt="">
+                            <p>30</p>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="#" class="block p-6 max-w-sm bg-white mt-10 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
-                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
-                <div class="object-center flex">
-                    <img src="@/static/peserta.svg" alt="">
-                    <p>30</p>
+                <div>
+                    <p class="ml-10 font-bold text-xl">BodyCombat</p>
+                    <a href="/admin/onlineClass/clickClass" class="block p-6 max-w-sm bg-white mt-5 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                        <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                        <div class="flex">
+                            <img src="@/static/peserta.svg" alt="">
+                            <p>30</p>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="#" class="block p-6 max-w-sm bg-white mt-10 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
-                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
-                <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
-                <div class="object-center flex">
-                    <img src="@/static/peserta.svg" alt="">
-                    <p>30</p>
+                <div>
+                    <p class="ml-10 font-bold text-xl">BodyCombat</p>
+                    <a href="/admin/onlineClass/clickClass" class="block p-6 max-w-sm bg-white mt-5 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                        <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                        <div class="flex">
+                            <img src="@/static/peserta.svg" alt="">
+                            <p>30</p>
+                        </div>
+                    </a>
                 </div>
-            </a>
+                <div>
+                    <p class="ml-10 font-bold text-xl">BodyCombat</p>
+                    <a href="/admin/onlineClass/clickClass" class="block p-6 max-w-sm bg-white mt-5 mr-48 border-4 border-red-600 shadow-md hover:bg-gray-100">
+                        <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">BodyCombat</h5>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">Trainer Iwan</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">17 June 2022</p>
+                        <p class="font-normal text-gray-700 text-center dark:text-gray-400">21.00-22.00</p>
+                        <div class="flex border">
+                            <img src="@/static/peserta.svg" alt="">
+                            <p>30</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
 
 
